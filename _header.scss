@@ -1,0 +1,17 @@
+.head{
+    @include bgImg();
+     height: 500px;
+     border: 2px solid black;
+     .img{
+         img{
+             height: 200px;
+             border: 10px solid $whiteColor;
+             border-radius: 10px;
+         }
+     }
+     h1{
+         color: $whiteColor;
+         font-size: $fontsize1;
+     }
+     @include makeCenter();
+ }

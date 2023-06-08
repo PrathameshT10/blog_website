@@ -1,0 +1,105 @@
+.head {
+  background-image: url(wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head .img img {
+  height: 200px;
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+.head h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section article {
+  margin: 30px;
+}
+
+section h2, section button {
+  margin: 10px 0;
+}
+
+@media (max-width: 500px) {
+  section {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .navul {
+  background-color: royalblue;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .navul li {
+  padding: 15px;
+}
+
+nav .navul li:hover {
+  background-color: cornflowerblue;
+}
+
+nav .navul a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  nav .navul {
+    display: block;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: royalblue;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

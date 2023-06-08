@@ -1,0 +1,51 @@
+@import './var';
+@import './makecenter';
+@import './bgimg';
+@import './header';
+@import './article';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+nav .navul{
+    background-color: $navbg;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li{
+      padding: 15px;
+      &:hover{
+        background-color: cornflowerblue;
+      }
+    } 
+    a{
+        text-decoration: none;
+        color: $whiteColor;
+    }
+    @media (max-width:500px){
+        display: block;
+        text-align: center;
+    }
+}
+
+footer{
+    background-color: $navbg;
+    text-align: center;
+    padding: 10px;
+    font: {
+        weight: bold;
+        family: Helvetica;
+        size: 1.2rem;
+        
+    }
+    @media (max-width: 500px){
+        font-size: 0.8rem;
+    }
+
+}
+

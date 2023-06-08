@@ -1,0 +1,13 @@
+section{
+    width: 50%;
+   margin: 0 auto;
+   article{
+    margin: 30px;
+}
+h2, button{
+    margin: 10px 0;
+}
+@media (max-width: 500px){
+    width: 100%;
+}
+}
